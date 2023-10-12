@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="istenen methodlari calistirma">
+
+    <test name="e2e testing">
+        <classes>
+            <class name="tests.day16_TestNGFramework.C05_QualitydemyNegatifLoginTesti">
+                <methods>
+                    <include name="gecersizPasswordTest"></include>
+                    <include name="gecersizEmailTest"></include>
+
+                </methods>
+            </class>
+
+            <class name="tests.day15_testNGFramework.C01_Priority">
+                <methods>
+                    <exclude name="carpmaTesti "></exclude>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+</suite>

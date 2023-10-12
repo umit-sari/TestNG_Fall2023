@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="istenen Page'lari calistirma">
+
+    <test name="Day 16 testleri">
+
+       <packages>
+           <package name="tests.day16_TestNGFramework"></package>
+
+       </packages>
+
+    </test>
+
+</suite>

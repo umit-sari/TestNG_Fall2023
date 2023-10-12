@@ -19,7 +19,7 @@ public class C02_PageClassKullanimi {
 
         // Arama sonuclarinin Nutella icerdigini test edin
         String expectedIcerik="Nutella";
-        String actualSonucYazisi=amazonPage.sonucYaziElemeti.getText();
+        String actualSonucYazisi=amazonPage.sonucYaziElementi.getText();
 
         Assert.assertTrue(actualSonucYazisi.contains(expectedIcerik));
         // driver'i kapatalim

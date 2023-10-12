@@ -8,7 +8,7 @@ import utilities.Driver;
 
 public class C01_DriverClassKullanimi {
 
-    @Test
+    @Test(groups = {"smoke","e2e1"})
     public void amazonTest(){
 
         Driver.getDriver().get("https://www.amazon.com");

@@ -9,7 +9,7 @@ import utilities.ReusableMethods;
 
 public class C03_FacebookTest {
 
-    @Test
+    @Test(groups = {"regression"})
     public void facebookTesti(){
         //1 - https://www.facebook.com/ adresine gidin
        Driver.getDriver().get("https://www.facebook.com/");
@@ -21,7 +21,7 @@ public class C03_FacebookTest {
 
         Faker faker = new Faker();
         FacebookPage facebookPage = new FacebookPage();
-        facebookPage.cookiesElementi.click();
+        //facebookPage.cookiesElementi.click();
         ReusableMethods.bekle(2);
 
         facebookPage.emailKutusu.sendKeys(faker.internet().emailAddress());
