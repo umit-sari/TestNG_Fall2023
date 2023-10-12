@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Raporlu Dosyalar">
+
+  <test name="Raporlu testleri calistirma">
+
+     <packages>
+
+         <package name="tests.day19_testNGReports_crossBrowserTest"></package>
+
+     </packages>
+
+  </test>
+
+</suite>

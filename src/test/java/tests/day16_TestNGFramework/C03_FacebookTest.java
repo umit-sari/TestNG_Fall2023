@@ -31,7 +31,7 @@ public class C03_FacebookTest {
         //4- Basarili giris yapilamadigini test edin
 
         Assert.assertTrue(facebookPage.girisYapilamadiYaziElementi.isDisplayed());
-        ReusableMethods.tumSayfaFotografiCek("Facebook");
+        ReusableMethods.tumSayfaFotografCek("Facebook");
 
         Driver.closeDriver();
     }

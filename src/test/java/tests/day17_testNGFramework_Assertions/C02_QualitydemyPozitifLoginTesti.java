@@ -27,7 +27,7 @@ public class C02_QualitydemyPozitifLoginTesti {
         //6- Basarili olarak giris yapilabildigini test edin
 
         Assert.assertTrue(qualitydemyPage.basariliGirisElementi.isDisplayed());
-        ReusableMethods.tumSayfaFotografiCek("QualitydemyPozitifLogin");
+        ReusableMethods.tumSayfaFotografCek("QualitydemyPozitifLogin");
         Driver.closeDriver();
     }
 }
