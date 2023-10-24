@@ -8,21 +8,22 @@ import utilities.Driver;
 
 public class C01_DriverClassKullanimi {
 
-    @Test(groups = {"smoke","e2e1"})
-    public void amazonTest(){
+    @Test(groups = {"smoke", "e2e1"})
+    public void amazonTest() {
 
         Driver.getDriver().get("https://www.amazon.com");
 
-       WebElement aramaKutusu= Driver.getDriver().findElement(By.id("twotabsearchtextbox"));
+        WebElement aramaKutusu = Driver.getDriver().findElement(By.id("twotabsearchtextbox"));
 
-       aramaKutusu.sendKeys("Nutella"+ Keys.ENTER);
+        aramaKutusu.sendKeys("Nutella" + Keys.ENTER);
 
-       Driver.closeDriver();
+        Driver.closeDriver();
 
 
     }
+
     @Test
-    public void youtubeTest(){
+    public void youtubeTest() {
         Driver.getDriver().get("https://www.youtube.com");
 
         Driver.closeDriver();
